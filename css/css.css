@@ -1,0 +1,352 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body{
+    background: #edece8 url("../img/body_bg.jpg") center top no-repeat;
+    font-family:  "Century Gothic";
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.main{
+    margin: 0 auto;
+    width: 970px;
+}
+
+.header{
+    height: 250px;
+}
+
+.header h2{
+    color: #3f282f;
+    font: 24px "Century Gothic";
+    float: left;
+    margin: 10px 0 0;
+    text-shadow: 1px 1px #fff;
+}
+
+.header a{
+    color: #726a4a;
+    font-size: 26px;
+    float: right;
+    margin: 25px 10px 0 0;
+    text-decoration: none;
+    text-shadow: 1px 1px #fff;
+}
+.header a span{
+    color: #a73700;
+}
+
+.content{
+    background: #f7f7f7;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    overflow: hidden;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+
+.menu{
+    background: #3f282f;
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    list-style: none;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.menu li{
+    background: url("../img/menu_bg.jpg") left center no-repeat;
+    float: left;
+    padding: 15px 35px;
+}
+
+.menu li:first-child{
+    background: none;
+    float: left;
+    padding: 15px 35px;
+}
+.menu li:last-child{
+    background: none;
+    float: right;
+    padding: 0;
+}
+
+
+.menu li a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 11px #000;
+}
+
+.menu li a:hover{
+    text-decoration: underline;
+}
+
+.search_form{
+    float: right;
+    margin: -4px 25px 0 0;
+}
+
+.search_txt{
+    background: #f7f7f7;
+    border: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: inset 0 0 10px -5px;
+    height: 23px;
+    margin: 0 10px 0 0;
+    width: 230px;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.search_btn{
+    position: relative;
+    top: 14px;
+}
+
+.content_wrapper{
+    float: left;
+    margin: 0 0 0 20px;
+    width: 700px;
+}
+
+#slider{
+    background: #b5b5b5;
+    border: 1px solid #3f282f;
+    height: 266px;
+    margin-top: 0px;
+    width: 927px;
+    overflow: hidden;
+    position: relative;
+    margin: 15px auto 25px;
+}
+
+#cyclePager{
+    position: absolute;
+    height: 18px;
+    overflow: hidden;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99;
+}
+
+#cyclePager a{
+    background: transparent url(../img/pager-gal.png) 0 0 no-repeat;
+    display: block;
+    float: left;
+    height: 17px;
+    margin-left: 10px;
+    text-indent: -9999px;
+    width: 17px;
+}
+
+#cyclePager a:hover,
+#cyclePager a.activeSlide{
+    background-position: -17px 0;
+}
+
+
+
+.post_main{
+    background: #f5f5f5;
+    border: 1px solid #e7e2e3;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin: 0 0 20px 0;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.post_main h1{
+    background: #e2e0e1;
+    border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    font: normal 24px Verdana;
+    margin: 0 0 5px 0;
+    padding: 5px 5px 8px 15px;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.post_main h1 a{
+    color: #3f282F;
+    text-decoration: none;
+}
+
+.post_main h1 a:hover{
+    text-decoration: underline;
+}
+
+.post_main h1 span{
+    color: #b8a6ab;
+    font-size: 12px;
+}
+
+.right_bar{
+    float: right;
+}
+
+.post{
+    margin: 0 15px 15px;
+}
+
+.post p{
+    font: 12px Verdana;
+    margin: 0 0 15px 0;
+}
+
+.post a{
+    font: 12px Verdana;
+    color: #3f282f;
+}
+
+.post a:hover{
+    text-decoration: none;
+}
+.post img{
+    border: 1px solid #545454;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.right_bar{
+    float: right;
+    margin: 0 20px 0 0;
+    width: 210px;
+}
+
+.right_bar_menu{
+    background: #e7e2e3;
+    border: 1px solid #d7d3d4;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.right_bar_menu h2{
+    color: #fff;
+    background: #470c0c;
+    border-radius: 8px 8px 0 0;
+    -moz-border-radius:  8px 8px 0 0;
+    -webkit-border-radius:  8px 8px 0 0;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 0 5px 0;
+    text-align: center;
+    behavior: url(http://www.choose.ru/choose/pie/PIE.htc);
+}
+
+.right_bar_menu ul{
+    list-style: none;
+    padding: 25px 15px;
+}
+
+.right_bar_menu ul li{
+    padding: 7px 20px;
+}
+
+.right_bar_menu ul li{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #cebfbf;
+}
+
+.right_bar_menu ul li:first-child{
+    border-top: none;
+}
+
+.right_bar_menu ul li:last-child{
+    border-bottom: none;
+}
+
+.right_bar_menu ul li a{
+    color: #000;
+    font: 14px Verdana;
+    padding: 0 0 0 5px;
+    text-shadow: 1px 1px #fff;
+}
+
+.right_bar_menu ul li a:hover{
+    text-decoration: none;
+}
+
+.footer{
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 30px 25px;
+    width: 970px;
+}
+
+.cpr{
+    color: #7d7d7c;
+    float: left;
+    margin: 0 95px 0 0;
+}
+
+.cpr p{
+    font: 14px Verdana;
+}
+
+.footer_logo{
+    color: #b7b5ad;
+    font-size: 26px;
+    text-decoration: none;
+    text-shadow: 1px 1px #fff;
+}
+
+.footer_logo span{
+    color: #c89c86;
+}
+
+.footer_menu{
+    float: left;
+    margin: 0 95px;
+}
+
+.footer_menu h2{
+    color: #7d7d7c;
+    font-size: 24px;
+    font-weight: normal;
+    text-shadow: 1px 1px #fff;
+}
+
+.footer_menu ul{
+    list-style: none;
+}
+
+.footer_menu ul li{
+    color: #7d7d7c;
+}
+
+.footer_menu ul li a{
+    color: #7d7d7c;
+    font: 14px Verdana;
+    text-decoration: none;
+    text-shadow: 1px 1px #fff;
+    padding: 0 0 0 5px;
+}
+
+.footer_menu ul li a:hover{
+    text-decoration: underline;
+}
